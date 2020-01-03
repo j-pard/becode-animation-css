@@ -5,3 +5,100 @@
 
 body {
   overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */
+* {
+  transition: all .6s; }
+
+body {
+  background-color: #F2F2F2;
+  padding: 20px; }
+
+.not-displayed {
+  display: none; }
+
+.card-container {
+  position: relative;
+  margin: 100px auto;
+  width: 400px;
+  height: 575px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #888;
+  box-shadow: 2px 2px 5px #666; }
+  .card-container .image-back {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/hands.jpg");
+    background-size: cover; }
+  .card-container article {
+    padding: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    position: relative; }
+    .card-container article h2 {
+      text-transform: uppercase;
+      font-size: 32px; }
+    .card-container article h3 {
+      font-size: 26px;
+      margin: 10px 0;
+      color: #D5B584; }
+    .card-container article h4 {
+      background-color: #D5B584;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      width: max-content;
+      position: absolute;
+      top: -30px;
+      left: 0; }
+    .card-container article blockquote {
+      display: none;
+      position: relative; }
+      .card-container article blockquote p {
+        margin: 30px 0 10px 0; }
+      .card-container article blockquote cite {
+        position: absolute;
+        right: 5px;
+        text-align: right;
+        font-style: italic;
+        color: #444; }
+  .card-container aside {
+    background-color: #D5B584;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+    .card-container aside p {
+      padding-top: 5px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center; }
+  .card-container footer {
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 2; }
+    .card-container footer p {
+      display: inline;
+      margin-left: 20px;
+      font-style: italic;
+      color: #444; }
+      .card-container footer p i {
+        margin-right: 10px; }
+  .card-container:hover {
+    box-shadow: 5px 5px 20px #666, -5px -5px 20px #666; }
+    .card-container:hover .image-back {
+      height: 250px;
+      transform: scale(1.2);
+      filter: blur(2px); }
+    .card-container:hover article {
+      margin-top: 20px; }
+      .card-container:hover article blockquote {
+        display: block; }
+
+/*# sourceMappingURL=style.css.map */
